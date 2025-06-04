@@ -1,68 +1,76 @@
-# Mini-projet : Prédiction du revenu annuel d’un Marocain
+# 📊 Mini-projet IA : Prédiction du Revenu Annuel des Marocains
 
-## Description du projet
-Ce mini-projet a pour objectif de construire un pipeline complet de Machine Learning en Python pour prédire le revenu annuel des Marocains à partir de données simulées réalistes. Le projet couvre toutes les étapes du processus de Machine Learning, de la génération des données à leur déploiement sous forme d'une application web.
+## 📋 Description
+Ce projet implémente un système complet de prédiction du revenu annuel des Marocains en utilisant des techniques de Machine Learning. Il utilise des données synthétiques réalistes pour construire un modèle prédictif accessible via une interface web conviviale.
 
-## Compétences visées
-- Génération de données synthétiques.
-- Nettoyage et transformation des données.
-# Mini-projet IA : Prédiction du Revenu Annuel des Marocains
+## 🎯 Objectifs
+- Générer un jeu de données synthétiques représentatif
+- Analyser et préparer les données
+- Développer des modèles de régression performants
+- Déployer une solution accessible via une interface web
 
-## Objectif
-Construire un pipeline complet de Machine Learning pour prédire le revenu annuel des Marocains à partir de données synthétiques réalistes, en suivant les étapes :
-- Génération de données  
-- Nettoyage et exploration  
-- Modélisation (5 algorithmes de régression)  
-- Déploiement via FastAPI et Streamlit  
+## 🔧 Technologies Utilisées
+- Python 3.x
+- Scikit-learn pour le Machine Learning
+- FastAPI pour l'API REST
+- Streamlit pour l'interface utilisateur
+- Pandas & NumPy pour la manipulation des données
+- Jupyter Notebook pour l'analyse exploratoire
 
+## 📁 Structure du Projet
+```
+.
+├── dataset_revenu_marocains.csv    # Données (40 000 entrées)
+├── mini_projet_AI_Noms.ipynb       # Notebook d'analyse
+├── api.py                          # API FastAPI
+├── app.py                          # Interface Streamlit
+└── requirements.txt                # Dépendances
+```
 
-## Installation
+## ⚙️ Installation
+
 1. Cloner le dépôt :
-   ```bash
-   git clone https://github.com/ELMOURABETNADA/Prediction-du-revenu-annuel-d-un-marocain
+```powershell
+git clone https://github.com/ELMOURABETNADA/Prediction-du-revenu-annuel-d-un-marocain
+```
 
-Installer les dépendances :
-
-bash
+2. Installer les dépendances :
+```powershell
 pip install -r requirements.txt
- Exécution
-1. Générer le dataset (optionnel)
-bash
-python generate_dataset.py
-2. Lancer l'analyse (Jupyter Notebook)
-Ouvrir mini_projet_AI_nom.ipynb et exécuter les cellules.
+```
 
-3. Déployer l'API
-bash
+## 🚀 Démarrage
+
+1. Lancer l'API FastAPI :
+```powershell
 uvicorn api:app --reload
-4. Lancer l'application Streamlit
-bash
+```
+
+2. Démarrer l'interface Streamlit :
+```powershell
 streamlit run app.py
- Modèles implémentés
+```
 
-Régression Linéaire
+3. Pour l'analyse des données, ouvrir le notebook Jupyter :
+```powershell
+jupyter notebook mini_projet_AI_Noms.ipynb
+```
 
-Arbres de Décision
+## 🤖 Modèles Implémentés
 
-Random Forest
+Nous avons implémenté et comparé 5 algorithmes de régression :
+- Régression Linéaire
+- Arbres de Décision
+- Random Forest
+- Gradient Boosting
+- Réseaux de Neurones (MLP)
 
-Gradient Boosting
+Les hyperparamètres ont été optimisés via GridSearchCV pour obtenir les meilleures performances.
 
-MLP (Réseaux de Neurones)
+## 👥 Auteurs
 
-Spécifications techniques
-Langage : Python 3
-
-Librairies : Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, FastAPI
-
-Hyperparamètres : Optimisés via GridSearchCV
-
-
-Auteurs
-Sadki Mohamed
-
-Nada El Mourabet
-
-Kaoutar Iabakriman
+- Sadki Mohamed
+- Nada El Mourabet
+- Kaoutar Iabakriman
 
 *Projet réalisé dans le cadre du module d'Intelligence Artificielle - 2ème année Cycle d'Ingénieurs GI2 (2024-2025)*
