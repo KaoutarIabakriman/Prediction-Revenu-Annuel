@@ -69,8 +69,8 @@ Les hyperparamètres ont été optimisés via GridSearchCV pour obtenir les meil
 
 ## 👥 Auteurs
 
+- Kaoutar Iabakriman
 - Sadki Mohamed
 - Nada El Mourabet
-- Kaoutar Iabakriman
 
 *Projet réalisé dans le cadre du module d'Intelligence Artificielle - 2ème année Cycle d'Ingénieurs GI2 (2024-2025)*
