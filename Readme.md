@@ -15,16 +15,6 @@ Construire un pipeline complet de Machine Learning pour prédire le revenu annue
 - Modélisation (5 algorithmes de régression)  
 - Déploiement via FastAPI et Streamlit  
 
-## Structure des fichiers
-.
-├── generate_dataset.py # Script de génération des données
-├── dataset_revenu_marocains.csv # Dataset généré (40 000 entrées)
-├── mini_projet_AI_nom.ipynb # Notebook Jupyter (analyse complète)
-├── modele_selection.joblib # Modèle optimisé sauvegardé
-├── api.py # API FastAPI pour le modèle
-├── app.py # Application Streamlit
-└── requirements.txt # Dépendances Python
-
 
 ## Installation
 1. Cloner le dépôt :
